@@ -4,6 +4,6 @@ Updated version of the [`@zeit/next-css`](https://github.com/vercel/next-plugins
 ## Installation
 ```
   "resolutions": {
-    "**/@zeit/next-css": "@hugsmidjan_is/zeit-next-css-override"
+    "**/@zeit/next-css": "github:hugsmidjan/zeit-next-css-override"
   }
 ```
