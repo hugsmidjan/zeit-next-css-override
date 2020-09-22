@@ -40,7 +40,13 @@ module.exports = (
           : 'static/css/[name].[contenthash:8].css',
         chunkFilename: dev
           ? 'static/css/[name].chunk.css'
-          : 'static/css/[name].[contenthash:8].chunk.css'
+          : 'static/css/[name].[contenthash:8].chunk.css',
+
+        // Modified settings from original project
+        hmr: dev,
+        reloadAll: dev,
+        esModule: true,
+        ignoreOrder: true,
       })
     )
     extractCssInitialized = true
